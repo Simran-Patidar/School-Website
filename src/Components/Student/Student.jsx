@@ -24,7 +24,7 @@ const Student = () => {
             <li>Drame</li>
             <li>Art</li>
             <li>Sports</li>
-            <li>Science Club ans many more....</li>
+            <li>Science Club and many more....</li>
           </ul>
         </div>
         <div className="right">
