@@ -1,0 +1,132 @@
+.student {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.section1 {
+    margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left {
+  flex-basis: 45%;
+}
+
+.left h3 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #212ea0;
+  margin-bottom: 10px;
+}
+
+.left p {
+  color: #676767;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.left ul li{
+    list-style: none;
+    color: #676767;
+    font-size: 18px;
+}
+
+.right {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.right img {
+  width: 50%;
+}
+
+.section2{
+    margin: 80px auto 40px;
+display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.achievemnets{
+    flex-basis: 43%;
+}
+.council{
+    flex-basis: 50%;
+}
+.achievemnets h3, .council h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #212ea0;
+    margin-bottom: 10px;
+}
+
+.achievemnets p, .council p{
+    color: #676767;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.achievemnets ul li, .council ul li{
+    font-size: 18px;
+    list-style: none;
+    color: #676767;
+    margin-bottom: 7px;
+}
+
+span{
+    font-weight: 500
+}
+
+/* media query */
+@media (max-width: 1000px){
+    .left h3,.achievemnets h3, .council h3{
+       font-size: 20px;
+    }
+    .left p, .achievemnets p, .council p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    } 
+    .left ul li, 
+    .achievemnets ul li, .council ul li{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 700px){
+    .left h3,.achievemnets h3, .council h3{
+       font-size: 25px;
+    }
+    .left p, .achievemnets p, .council p{
+        font-size: 17px;
+    } 
+    .left ul li, 
+    .achievemnets ul li, .council ul li{
+        font-size: 17px;
+    }
+
+    .achievemnets{
+        margin-bottom: 20px;
+    }
+
+    .section1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-top: 50px;
+    }
+
+    .left{
+        margin-bottom: 40px;
+    }
+
+    .section2{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

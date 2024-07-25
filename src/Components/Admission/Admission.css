@@ -1,0 +1,86 @@
+.admission{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(73,70,92,0.7),rgba(73,70,92,0.7)), url("../../assets/admission.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 150px auto 80px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.admission-info, .date{
+    margin-left: 100px;
+}
+
+.admission-info h3, .date h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.admission-info h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    max-width: 400px;
+}
+
+.admission-info p{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.date ul li{
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+
+/* media query */
+
+@media (max-width: 800px) {
+    .admission-info, .date{
+        margin-left: 50px;
+    }
+
+    .admission-info h2{
+        font-size: 25px;
+    }
+
+    .admission-info h3, .date h3{
+        font-size: 20px;
+    }
+
+    .admission-info p{
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 600px) {
+    .admission-info, .date{
+        margin-left: 25px;
+    }
+
+    .admission-info h2{
+        font-size: 20px;
+    }
+
+    .admission-info h3, .date h3{
+        font-size: 20px;
+    }
+
+    .admission-info p{
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+    .date ul li{
+        font-size: 12px;
+    }
+}
